@@ -33,12 +33,18 @@ def show_pdf(file_path):
 
 
 st.markdown('## Data Cleaning', unsafe_allow_html=True)
+st.write('''
+##### *Report* 
+''')
 col1, col2= st.columns(2)
 with col1:  
     if st.button('Read PDF',key='1'):            
         show_pdf("Data Cleaning Report.pdf")
 with col2:
     st.button('Close PDF',key='2') 
+    st.write('''
+##### *Code* 
+''')
 col1, col2= st.columns(2)
 with col1:  
     if st.button('Read PDF',key='3'):            
