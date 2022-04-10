@@ -43,7 +43,7 @@ with col1:
 with col2:
     st.button('Close PDF',key='2') 
 col1, col2= st.columns(2)
-    st.write('''
+st.write('''
 ##### *Code* 
 ''')
 with col1:  
