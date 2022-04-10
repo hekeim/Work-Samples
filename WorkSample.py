@@ -170,7 +170,7 @@ with col1:
     if st.button('Read PDF',key='31'):            
         show_pdf("Recurrent Neural Network Code.pdf")
 with col2:
-    st.button('Close PDF',key='2')
+    st.button('Close PDF',key='32')
 
 
 # In[30]:
@@ -179,16 +179,16 @@ with col2:
 st.markdown('## Time Series Analysis', unsafe_allow_html=True)
 col1, col2= st.columns(2)
 with col1:  
-    if st.button('Read PDF',key='1'):            
+    if st.button('Read PDF',key='33'):            
         show_pdf("Time Series Analysis Report.pdf")
 with col2:
-    st.button('Close PDF',key='2') 
+    st.button('Close PDF',key='34') 
 col1, col2= st.columns(2)
 with col1:  
-    if st.button('Read PDF',key='1'):            
+    if st.button('Read PDF',key='35'):            
         show_pdf("Time Series Analysis Code.pdf")
 with col2:
-    st.button('Close PDF',key='2')
+    st.button('Close PDF',key='36')
 
 
 # In[31]:
@@ -197,10 +197,10 @@ with col2:
 st.markdown('## Market Basket Analysis', unsafe_allow_html=True)
 col1, col2= st.columns(2)
 with col1:  
-    if st.button('Read PDF',key='1'):            
+    if st.button('Read PDF',key='37'):            
         show_pdf("Market Basket Analysis.pdf")
 with col2:
-    st.button('Close PDF',key='2') 
+    st.button('Close PDF',key='38') 
 
 
 # In[32]:
@@ -209,16 +209,16 @@ with col2:
 st.markdown('## Chi-Square Capstone', unsafe_allow_html=True)
 col1, col2= st.columns(2)
 with col1:  
-    if st.button('Read PDF',key='1'):            
+    if st.button('Read PDF',key='39'):            
         show_pdf("Chi-Square Analyses of New York City Business Licenses.pdf")
 with col2:
-    st.button('Close PDF',key='2') 
+    st.button('Close PDF',key='40') 
 col1, col2= st.columns(2)
 with col1:  
-    if st.button('Read PDF',key='1'):            
+    if st.button('Read PDF',key='41'):            
         show_pdf("Chi-Square Analysis Executive Summary.pdf")
 with col2:
-    st.button('Close PDF',key='2')
+    st.button('Close PDF',key='42')
 
 
 # In[ ]:
